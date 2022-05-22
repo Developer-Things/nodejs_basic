@@ -1,0 +1,5 @@
+const readlineSync=require('readline-sync')
+const username=readlineSync.question("Enter your Name?")
+console.log("Hi"+" "+username)
+const password=readlineSync.question("Enter your password",{hideEchoBack:true})
+console.log('verify:'+password)
